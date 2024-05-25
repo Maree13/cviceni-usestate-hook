@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import AllTasks from './components/AllTasks';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <AllTasks />
     </div>
   );
-}
+};
 
 export default App;
+
+// cisty javascript
+
+// const myArray = [1, 2, 3, 4, 5];
+
+// const result = myArray.map( oneNumber => oneNumber + 10 );
+// const result2 = myArray.filter( (oneNumber) => {
+//   return oneNumber > 3 });
+
+// console.log(result)
+// console.log(result2)
+//
